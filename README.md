@@ -18,11 +18,8 @@ The user will also learn pronunciation of the alphabets in simple, clear, unders
 There is also an assessment mode through which the special educator or parent can know about the following details:
 
 1. How long the child has taken for completing each screen?
-
 2. The alphabet which the child is unable to recall in a sequence?
-
 3. In the second level, it is easier to check whether the child can identify the letter.
-
 4. In the third level, the sequencing of the alphabets can be assessed.
 
 How to install

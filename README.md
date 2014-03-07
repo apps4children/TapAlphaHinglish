@@ -1,7 +1,7 @@
 TapAlphaHinglish
 ================
 
-1.Name (Project Heading): TapAlpha Hinglish
+1.Name (Project Heading): TapAlphaHinglish
 
 2.Institute: IIT Kanpur
 
@@ -12,9 +12,7 @@ It is conceived as a supplementary teaching aid to emphasize the sequencing of a
 What is taught?
 
 The sequence of the Upper case alphabets, lower case alphabets and letter recognition.
-
 The user will also learn pronunciation of the alphabets in simple, clear, understandable way. 
-
 There is also an assessment mode through which the special educator or parent can know about the following details:
 
 1. How long the child has taken for completing each screen?
@@ -25,13 +23,8 @@ There is also an assessment mode through which the special educator or parent ca
 How to install
 
 1. Download TapAlphaHinglish.apk file on to your mobile/tablet
-
 2. Open file manager in your device
-
 3. Locate TapAlphaHinglish.apk and click on it.
-
 4. Click ok when asked whether  to  install the app
-
 5. The app will be installed to the apps section of your device immediately.
-
 6. Now you can start TapAlphaHinglish by click on this icon.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <resources>
+   <string-array name="listOptions">
+     <item>Easy</item>
+     <item>Medium</item>
+     <item>Hard</item>
+     </string-array>
+   <string-array name="listValues">
+     <item>easy</item>
+     <item>medium</item>
+     <item>hard</item>
+   </string-array>
+   
+   <string-array name="alphaOptions">
+     <item>Small/छोटा अक्षर</item>
+     <item>Capital/बड़ा अक्षर</item>
+     </string-array>
+   <string-array name="alphaValues">
+     <item>small</item>
+     <item>capital</item>
+   </string-array>
+ </resources>

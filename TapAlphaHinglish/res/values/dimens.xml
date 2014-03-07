@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<dimen name="button_width">200dp</dimen>
+<dimen name="button_font_size">15sp</dimen>
+
+<dimen name="selected">185sp</dimen>
+<dimen name="back">16sp</dimen>
+
+<dimen name="easy_header">18sp</dimen>
+<dimen name="easy_cell">70sp</dimen>
+
+<dimen name="medium_header">18sp</dimen>
+<dimen name="medium_cell">55sp</dimen>
+
+<dimen name="hard_header">16sp</dimen>
+<dimen name="hard_cell">70sp</dimen>
+
+<dimen name="report_padding">5dp</dimen>
+</resources>

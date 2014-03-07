@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    android:background="@color/background">
+ <PreferenceCategory
+      android:title="Options /विकल्प चुने">
+  <ListPreference
+     android:entries="@array/alphaOptions"
+     android:entryValues="@array/alphaValues"
+     android:key="alpha"
+     android:summary="Select uppercase or lowercase/बड़े अक्षर या छोटे अक्षर का चयन करें "
+     android:title="Alphabets /अक्षर"/>
+ </PreferenceCategory>
+ 
+     <PreferenceCategory android:title="Back /पीछे">
+       <Preference android:title="Click to Back/बाहर जाने के लिए क्लिक करें" android:key="exitlink"/>       
+   </PreferenceCategory> 
+</PreferenceScreen>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="@drawable/game_bg">
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#39A4C6">
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button" 
+    android:textSize="@dimen/back"
+    android:textColor="#ffffff"
+    android:textStyle="bold" 
+    android:typeface="sans"
+    android:text="Back/पीछे"
+    android:layout_alignParentTop="true"/>
+    <TextView 
+    android:id="@+id/marquee"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/back"
+    android:paddingLeft="10dp"
+    android:paddingTop="8dp"
+    android:layout_weight="8"
+    android:textSize="@dimen/hard_header"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:typeface="sans"
+    android:textColor="#ffffff"
+    android:text="Drag And Drop करके अक्षरो को क्रमबद्ध करे"/>
+    </RelativeLayout>
+    
+    <GridView
+    android:id="@+id/gridhard"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="92"
+    android:layout_margin="10dp"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:numColumns="4"
+    android:stretchMode="columnWidth"
+    android:gravity="center"/>
+</LinearLayout>

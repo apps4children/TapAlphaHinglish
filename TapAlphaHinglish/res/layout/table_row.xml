@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:background="#d4cae2">
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*">
+    <TableRow
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="#d4cae2" >
+	<TextView
+	android:id="@+id/playername" 
+	android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:text=""
+	android:textStyle="bold"
+	android:textColor="#702963" 
+	android:layout_marginLeft="3dp" 
+	android:gravity="left" >
+	</TextView>
+	
+	<TextView
+	android:id="@+id/easy" 
+	android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:text=""
+	android:textStyle="bold"
+	android:textColor="#893F45"
+	android:layout_marginLeft="10dp" 
+	android:gravity="left" >
+	</TextView>
+	
+	<TextView
+	android:id="@+id/medium" 
+	android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:text=""
+	android:textStyle="bold"
+	android:textColor="#893F45" 
+	android:gravity="left" >
+	</TextView>
+	<TextView
+	android:id="@+id/hard" 
+	android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:text=""
+	android:textStyle="bold"
+    android:textColor="#893F45" 
+ 	android:gravity="center" >
+	</TextView>
+	<ImageButton 
+	android:id="@+id/icon" 
+	android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:src="@drawable/delete"
+	android:onClick="onClick" 
+	android:background="#d4cae2"/>
+</TableRow>
+</TableLayout>
+</RelativeLayout>

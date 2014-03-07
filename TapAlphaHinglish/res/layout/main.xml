@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/bg"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:orientation="horizontal">
+<LinearLayout
+android:orientation="vertical"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:layout_gravity="center">
+<Button
+android:id="@+id/new_button"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="New Game /नया खेल"/>
+<Button
+android:id="@+id/level_button"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Options /विकल्प चुने"/>
+<Button
+android:id="@+id/score"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Score /खेल के अंक"/>
+<Button
+android:id="@+id/instruction_button"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Instructions /निर्देश"/>
+<Button
+android:id="@+id/exit_button"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Exit /बाहर आयें"/>
+</LinearLayout>
+</LinearLayout>

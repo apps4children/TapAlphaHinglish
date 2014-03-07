@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#a9d2ff">
+            
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#39A4C6">
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10sp"
+    android:background="#89CFF0" 
+    android:textSize="18sp"
+    android:textColor="#ffffff"
+    android:textStyle="bold" 
+    android:typeface="sans"
+    android:text="Back/पीछे"
+    android:layout_alignParentTop="true"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/back"
+    android:padding="10dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:typeface="sans"
+    android:textColor="#ffffff"
+    android:text="Instructions /निर्देश"/>
+    </RelativeLayout>
+            
+    
+        <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:padding="5dip">
+
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Level Easy"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="Tap the alphabets in the correct sequence. There are different tiles  with the alphabets and each alphabet should be pressed in the right order only.For example first press A, then  B and C and so on. After completing one screen then go to the next screen."/>
+            <View 
+            android:layout_height="5dp"
+            android:layout_width="fill_parent"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="सही क्रम में अक्षर दबाएँ। यहाँ प्रत्येक अक्षर के लिए अलग अलग tiles दिये गये है जिसे सही क्रम मे दबाना है। उदाहरण के लिए पहले A फिर B और C, इसी प्रकार सारे अक्षरों को क्रम मे दबाएँ। एक स्क्रीन पूरा करने के बाद फिर नया स्क्रीन आएगा।"/>
+           <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+            
+            
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Level Medium"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="Tap the alphabet that is called out. Listen to the alphabet that is called out and then press that alphabet. The alphabets are called out in a random way."/>
+            <View 
+            android:layout_height="5dp"
+            android:layout_width="fill_parent"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="उस अक्षर को दबाएँ जिसे बोला जाये। पहले अक्षर के ध्वनि को सुने फ़िर अक्षर को दबाएँ। अक्षरों कि ध्वनि क्रमरहित है।"/>
+            <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+            
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Level Hard"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="Slide the boxes up and down, left and right to place the alphabets in the full sequence. Just drag the tiles with your finger and make the sequence of Alphabets.
+ Like start with tile A and then sliding the tile B next to that one and so on"/>
+            <View 
+            android:layout_height="5dp"
+            android:layout_width="fill_parent"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="अक्षरों को ऊपर,नीचे,बाएं और दाहिने खींच कर पूर्ण अनुक्रम बनाये। बस अपनी उंगली के साथ अक्षरों को खींचें और अक्षरो के अनुक्रम बनाने। जैसे A से शुरू करे और फिर अक्षर B को,A बाद रखे। इसि प्रकार सारे अक्षरों को क्रम मे रखे।"/>
+         
+           <View 
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"/>
+           </LinearLayout>
+           </ScrollView>
+</LinearLayout>

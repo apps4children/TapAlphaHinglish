@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="@drawable/game_bg">
+    
+   <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#39A4C6">
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button" 
+    android:textSize="@dimen/back"
+    android:textColor="#ffffff"
+    android:textStyle="bold" 
+    android:typeface="sans"
+    android:text="Back/पीछे"
+    android:layout_alignParentTop="true"/>
+    <TextView 
+    android:id="@+id/marquee"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/back"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:layout_weight="8"
+    android:textSize="@dimen/easy_header"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:typeface="sans"
+    android:textColor="#ffffff"
+    android:text="क्रम में अक्षर दबाएँ "/>
+    </RelativeLayout>
+    
+    <TextView
+    android:id="@+id/selection"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="65"
+    android:text=""
+	android:textSize="@dimen/selected"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:typeface="sans"
+	android:textColor="#6495ed"
+	android:shadowColor="#FFB700"
+    android:shadowRadius="3.5"
+    android:shadowDy="5.0"
+    android:shadowDx="5.0"/>
+    <GridView
+    android:id="@+id/grid"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:numColumns="4"
+    android:stretchMode="columnWidth"
+    android:gravity="center"/>
+</LinearLayout>

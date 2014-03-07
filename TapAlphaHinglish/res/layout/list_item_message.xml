@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:orientation="vertical">
+ 
+ <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+ <TextView
+  android:id="@+id/name"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_alignParentTop="true"
+  android:padding="@dimen/report_padding"
+  android:textSize="16dp"
+  android:textStyle="bold"
+  android:textColor="#000000"
+  android:text=""/>
+ <TextView
+  android:id="@+id/date"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_alignParentTop="true"
+  android:layout_toLeftOf="@+id/delete"
+  android:padding="@dimen/report_padding"
+  android:textSize="16dp"
+  android:textStyle="bold"
+  android:textColor="#000000"
+  android:text=""/>
+ <ImageView
+  android:id="@+id/delete"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_alignParentTop="true"
+  android:padding="@dimen/report_padding"
+  android:src="@drawable/delete"
+  android:onClick="onClick" 
+  android:layout_alignParentRight="true"/>
+ </RelativeLayout>
+ 
+ <TableLayout
+   android:id="@+id/maintable"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:background="#cdc9c9">
+   <TableRow>
+    <TextView
+     android:layout_width="120dp"
+     android:layout_height="fill_parent"
+     style="@style/ReportText"
+     android:text="Level Easy" />
+    <TextView
+     android:id="@+id/level1status"
+     android:layout_width="100dp"
+     android:layout_height="fill_parent"
+     style="@style/ReportText"
+     android:text="" />
+    <TextView
+     android:id="@+id/level1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     style="@style/ReportText"
+     android:text="" />
+   </TableRow>
+   
+  <TableRow>
+    <TextView
+     android:layout_width="120dp"
+     android:layout_height="fill_parent"
+     style="@style/ReportText"
+     android:text="Level Medium" />
+     <TextView
+     android:id="@+id/level2status"
+     android:layout_width="100dp"
+     android:layout_height="fill_parent"
+     style="@style/ReportText"
+     android:text="" />
+    <TextView
+     android:id="@+id/level2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     style="@style/ReportText"
+     android:text="" />
+   </TableRow>
+  </TableLayout>
+</LinearLayout>

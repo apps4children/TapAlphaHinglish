@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/bg_game_over"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:orientation="horizontal">
+<LinearLayout
+android:orientation="vertical"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:layout_gravity="center">
+<Button
+android:id="@+id/play"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Play Again/फिर से खेले"/>
+<Button
+android:id="@+id/next"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Score/खेल के अंक"/>
+<Button
+android:id="@+id/exit"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Exit/बाहर आयें"/>
+</LinearLayout></LinearLayout>
